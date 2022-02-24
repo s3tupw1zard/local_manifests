@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="themuppets"
+    fetch="https://github.com/TheMuppets"
+    revision="lineage-19.0" />
+  
+  <remote name="lineage"
+    fetch="https://github.com/LineageOS"
+    revision="lineage-19.0" />
+  
+  <project path="device/google/crosshatch" name="android_device_google_crosshatch" remote="lineage" />
+  <project path="kernel/google/msm-4.9" name="android_kernel_google_msm-4.9" remote="lineage" />
+  <project path="vendor/google" name="proprietary_vendor_google" remote="themuppets" />
+  <project path="packages/apps/ElmyraService" name="android_packages_apps_ElmyraService" remote="lineage" />
+  
+</manifest>
