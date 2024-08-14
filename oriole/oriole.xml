@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote  name="aosp-raviole"
+     fetch="https://android.googlesource.com"
+     review="android-review.googlesource.com" />
+
+
+    <!-- Device Specific Repositories -->
+    <project path="device/google/raviole" name="s3tupw1zard/android_device_google_raviole" remote="github" revision="fourteen" />
+    <project path="device/google/raviole-kernel" name="device/google/raviole-kernel" remote="aosp-raviole" revision="main" />
+    <project path="device/google/gs101" name="LineageOS/android_device_google_gs101" remote="github" revision="lineage-21" />
+    <!-- <project path="kernel/google/gs101" name="LineageOS/android_kernel_google_gs101" remote="github" revision="lineage-21" /> -->
+    <project path="vendor/google/oriole" name="s3tupw1zard/proprietary_vendor_google_oriole" remote="github" revision="fourteen" />
+    <project path="device/google/gs-common" name="LineageOS/android_device_google_gs-common" remote="github" revision="lineage-21"/>
+
+    <!-- Common Dependencies -->
+    <!-- <project path="hardware/google/titan" name="LineageOS/android_hardware_google_titan" remote="github" revision="lineage-21.0" /> -->
+
+</manifest>
