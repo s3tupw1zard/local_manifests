@@ -10,11 +10,11 @@
      revision="pa_vauxite" />
 
     <!-- Device Specific Repositories -->
-    <project path="device/google/raviole" name="s3tupw1zard/android_device_google_raviole" remote="s3tupw1zard-raviole" revision="pa_vauxite" />
+    <project path="device/google/raviole" name="android_device_google_raviole" remote="s3tupw1zard-raviole" revision="pa_vauxite" />
     <project path="device/google/raviole-kernel" name="device/google/raviole-kernel" remote="aosp-raviole" revision="main" />
-    <project path="device/google/gs101" name="s3tupw1zard/android_device_google_gs101" remote="s3tupw1zard-raviole" revision="pa_vauxite" />
+    <project path="device/google/gs101" name="android_device_google_gs101" remote="s3tupw1zard-raviole" revision="pa_vauxite" />
     <!-- <project path="kernel/google/gs101" name="LineageOS/android_kernel_google_gs101" remote="github" revision="lineage-21" /> -->
-    <project path="vendor/google/oriole" name="s3tupw1zard/proprietary_vendor_google_oriole" remote="s3tupw1zard-raviole" revision="pa_vauxite" />
-    <project path="device/google/gs-common" name="s3tupw1zard/android_device_google_gs-common" remote="s3tupw1zard-raviole" revision="pa_vauxite"/>
+    <project path="vendor/google/oriole" name="proprietary_vendor_google_oriole" remote="s3tupw1zard-raviole" revision="pa_vauxite" />
+    <project path="device/google/gs-common" name="android_device_google_gs-common" remote="s3tupw1zard-raviole" revision="pa_vauxite"/>
 
 </manifest>
