@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+<remote  name="lineage-github"
+     fetch="https://github.com/LineageOS"
+     revision="pa_vauxite" />
+
+    <!-- Device Specific Repositories -->
+    <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="lineage-github" revision="lineage-22.0" />
+    <project path="hardware/google/pixel-sepolicy" name="android_hardware_google_pixel-sepolicy" remote="lineage-github" revision="lineage-22.0" />
+
+
+</manifest>
