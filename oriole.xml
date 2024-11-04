@@ -7,7 +7,7 @@
 
 <remote  name="s3tupw1zard-raviole"
      fetch="https://github.com/s3tupw1zard"
-     revision="15" />
+     revision="pa_vauxite" />
 
     <!-- Device Specific Repositories -->
     <project path="device/google/raviole" name="s3tupw1zard/android_device_google_raviole" remote="s3tupw1zard-raviole" revision="pa_vauxite" />
