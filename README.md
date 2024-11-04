@@ -3,5 +3,4 @@
 ## Devices
 
 - Google Pixel 6 (oriole)
-- Raspberry Pi 4 (rpi4)
-- Raspberry Pi 5 (rpi5)
+- Google Pixel 6 Pro (raven)
